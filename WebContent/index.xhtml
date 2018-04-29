@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+	<h:head>
+		<title>Homepage</title>
+		
+		<style>
+			h1
+			{
+				color: blue;
+				font-family: Ubuntu;
+				font-style: italic;
+				width: 200px;
+			}
+			h1:hover
+			{
+				color: green;
+				cursor: pointer;
+			}
+			.border
+			{
+				border-style: solid;
+				border-color: green;
+				width: 100px;
+				text-align: center;
+			}
+			.border:hover
+			{
+				background-color: green;
+			}
+			.no
+			{
+				text-decoration: none;
+				color: black;
+				font-family: Ubuntu;
+			}
+			.no:hover
+			{
+				color: white;
+			}
+			.logreg
+			{
+				background-color: blue;
+			}
+			.logreg:hover
+			{
+				background-color: green;
+			}
+			.logregcolor
+			{
+				color: white;
+				text-decoration: none;
+				font-family: Ubuntu;
+			}
+		</style>
+	</h:head>
+	<h:body>
+		<h1>Demo ETS</h1>
+		<h:form>
+			<h:link styleClass="logreg logregcolor" value="Login" outcome="login"></h:link>&nbsp;&nbsp;&nbsp;
+			<h:link styleClass="logreg logregcolor" value="Register" outcome="register"></h:link><br/><br/>
+			<div class="border"><h:link styleClass="no" value="See Hotels" outcome="hotels"></h:link></div>&nbsp;&nbsp;&nbsp;
+			<div class="border"><h:link styleClass="no" value="See Tours" outcome="tours"></h:link></div>&nbsp;&nbsp;&nbsp;
+			<div class="border"><h:link styleClass="no" value="See Airlines Tickets" outcome="airline-ticket"></h:link></div>
+		</h:form>
+	</h:body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
